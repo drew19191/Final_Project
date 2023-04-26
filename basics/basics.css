@@ -1,0 +1,114 @@
+/* Basics CSS*/
+
+body {
+ margin: 40px 0;
+ color: #333;
+ background:#775D42;
+ padding:0;
+ font: 0.86em/1.6 Arial, Helvetica, sans-serif;
+ }
+
+a:link {
+color: #775D42;
+text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+color: #775D42;
+}
+a:hover {
+text-decoration: none;
+color: #fff;
+}
+a:active {
+text-decoration: none;
+color: #775D42;
+}
+
+h1 {
+ font-size: 1.5em;
+}
+
+h2 {
+ font-size: 1.3em;
+}
+
+#outer {
+ width: 650px;
+ margin: 0 auto;
+ background: #fff url(bg.gif) repeat-y;
+ }
+
+#hdr {
+ padding-top: 125px;
+ background: #fff url(headerlogo.gif) no-repeat;
+ }
+
+#hdr h1 {
+ color: #fff;
+ background:#B7734B;
+ font-size: 1.5em;
+ font-weight: bold;
+ text-align: center;
+ text-transform: uppercase;
+ margin: 0;
+ padding: 1em;
+ border:solid #000000;	
+ border-width:1px 0 1px 0;
+ }
+
+#nav {
+ float:left;
+ width:130px;
+ padding: 1em;
+ text-align: center;
+ background: url(divider.gif) no-repeat bottom center;
+ padding-bottom: 30px;
+}
+#nav ul {
+ background: url(divider.gif) no-repeat top center;
+ margin: 0;
+ padding: 30px 0 0 0;
+ list-style: none;
+}
+#nav li {
+	margin: 0;
+}
+#nav h2 {
+
+}
+
+#cont {
+ float: right;
+ width:440px;
+ padding: 1.5em;
+ }
+#cont h2 {
+ color: rgb(153, 102, 51);
+}
+
+#ftr {
+ clear: both;
+ color: #fff;
+ background:#B7734B;
+ font-size: 0.8em;
+ text-align: center;
+ border-top: 1px solid #000;
+ margin: 1em 0 0 0;
+ }
+
+#leftImg
+{
+float:left;
+width: 125px;
+height: 93px;
+padding: 0 5px 5px 0;
+}
+
+#rightImg
+{
+float:right;
+width: 125px;
+height: 93px;
+padding: 0 0 5px 5px;
+}
