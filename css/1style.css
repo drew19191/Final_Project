@@ -1,4 +1,13 @@
 
+body {
+  height: auto;
+
+  
+  margin: 0rem;
+  overflow-x: hidden;
+  
+}
+
 .container-fluid {
     position: relative;
     text-align: center;
@@ -42,7 +51,54 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
-      }
+        font-size: 16px; 
+  }
+
+  h1{
+    text-align: center;
+  }
+ p{
+  margin: 25px 20% 50px 20%;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: relative;
+  left: 50%;
+  top: 200px;
+  transform: translate(0%, -50%); 
+  user-select: none;
+  padding: 100px 100px 100px 100px;
+  
+}
+
+
+
+#image-track > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.fish-con{
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.fish-con .centered{
+  font-size: 30px;
+}
+ 
   
 
