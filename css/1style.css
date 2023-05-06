@@ -1,0 +1,48 @@
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 200px;
+  }
+
+  .btn{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+  
+
