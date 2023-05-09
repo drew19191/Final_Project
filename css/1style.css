@@ -130,6 +130,20 @@ body {
   padding-top: 250px;
 }
 
+.sign-con{
+  position: relative;
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.sign-con .centered{
+  font-size: 72px;
+  color: black;
+  padding-top: 50px;
+}
+
 
 /*FOOTER*/
 
