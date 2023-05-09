@@ -1,0 +1,277 @@
+
+body {
+  height: auto;
+  background-color: #F2E3B3;
+  margin: 0rem;
+  overflow-x: hidden;
+  
+}
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0%;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    color: white;
+  }
+  
+ 
+
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+  
+
+ 
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 200px;
+  }
+
+  .btn {
+        background-color:#733702;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px; 
+  }
+
+  h1{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+ p{
+  margin: 25px 20% 50px 20%;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: relative;
+  left: 50%;
+  top: 200px;
+  transform: translate(0%, -50%); 
+  user-select: none;
+  padding: 100px 100px 100px 100px;
+  
+}
+
+
+
+#image-track > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.fish-con{
+  position: relative;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+
+.fish-con .centered{
+  font-size: 72px;
+  color: white;
+  padding-top: 300px;
+}
+
+.btn-activities {
+  display: flex;
+  margin: auto;
+  max-width: 125px;
+  text-align: center;
+}
+
+.gear-con{
+  position: relative;
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.gear-con .centered{
+  font-size: 72px;
+  color: black;
+  padding-top: 250px;
+}
+
+.sign-con{
+  position: relative;
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.sign-con .centered{
+  font-size: 72px;
+  color: black;
+  padding-top: 50px;
+}
+
+
+/*FOOTER*/
+
+footer {
+  background: #733702;
+  background: -webkit-linear-gradient(59deg, #D97C2B, #733702);
+  background: linear-gradient(59deg, #D97C2B, #733702);
+  color: white;
+  margin-top:100px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+/* footer social icons */
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #1DA1F2;
+}
+
+.social-network a.icoInstagram:hover {
+  background-color: #E1306C;
+}
+
+.social-network a.icoReddit:hover {
+  background-color: #FF4500;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoInstagram:hover i,
+.social-network a.icoReddit:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+ 
+  
+
