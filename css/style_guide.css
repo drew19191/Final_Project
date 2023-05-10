@@ -1,22 +1,57 @@
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    padding: 0%;
-  }
-
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    padding-top: 5%;
-    padding-left: 10px;
-  }
+/* Fonts from Figma */
 
 
-
-
-h1 {
-    text-align: center;
-    color: red;
+/* Headlines from Figma */
+.h1 { 
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 65px;
+/* identical to box height */
+text-transform: uppercase;
 }
+
+.h1 { 
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 52px;
+/* identical to box height */
+text-transform: uppercase;
+}
+
+.h3 {
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height */
+text-transform: uppercase;
+}
+
+.h4 {
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 31px;
+text-transform: uppercase;
+}
+
+/* Photo overlay */
+
+.photoFont 
+{
+/* Photo Overlay */
+font-family: 'Futura';
+font-style: normal;
+font-weight: 800;
+font-size: 96px;
+line-height: 125px;
+/* identical to box height */
+text-transform: uppercase;
+}
+
