@@ -184,7 +184,7 @@ body {
 .acts-image {
   width: 300px;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .acts-image__overlay {
@@ -222,6 +222,7 @@ body {
 p.block{
   font-weight: bold;
   margin-right: 100px;
+  
 }
 
 
@@ -266,7 +267,7 @@ p.block{
 
 .gear-con .centered{
   font-size: 72px;
-  color: black;
+  color: white;
   padding-top: 250px;
 }
 
