@@ -81,6 +81,13 @@ body {
     text-align: center;
     padding-bottom: 20px;
   }
+  h2{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+
  p{
   margin: 25px 20% 50px 20%;
 }
