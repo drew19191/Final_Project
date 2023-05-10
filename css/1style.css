@@ -57,6 +57,10 @@ body {
     padding-bottom: 200px;
   }
 
+  
+  
+  
+
   .centered .nothome{
     position: absolute;
     top: 0;
@@ -113,6 +117,30 @@ body {
   object-position: 100% center;
 }
 
+/*photo grid*/
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.col {
+  flex: 1;
+  max-width: 33.33%;
+}
+
+
+
+/*photo grid end*/
 
 .center {
   display: block;
