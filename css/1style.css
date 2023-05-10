@@ -149,8 +149,16 @@ body {
 
   }
 
+  h3{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+
+  }
+
  p{
   margin: 25px 20% 50px 20%;
+  text-align: center;
 }
 
 #image-track {
@@ -220,7 +228,7 @@ body {
 }
 
 p.block{
-  font-weight: bold;
+
   margin-right: 100px;
   
 }
@@ -281,7 +289,7 @@ p.block{
 
 .sign-con .centered{
   font-size: 72px;
-  color: black;
+  color: darkgray;
   padding-top: 50px;
 }
 
