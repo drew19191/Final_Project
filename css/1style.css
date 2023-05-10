@@ -300,3 +300,21 @@ ul.social-network li {
  
   
 
+
+
+/* Set a max width for the form container */
+form {
+  max-width: 500px;
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Adjust the width of the form input elements */
+.form-control {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Adjust the size of the checkbox label */
+.form-check-label {
+  padding-left: 1.5rem;
+}
