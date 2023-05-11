@@ -1,15 +1,14 @@
 /* Headlines from Figma */
-.h1 { 
+h1 { 
   font-family: 'Futura';
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
   line-height: 65px;
-  /* identical to box height */
   text-transform: uppercase;
   }
   
-  .h1 { 
+h2 { 
   font-family: 'Futura';
   font-style: normal;
   font-weight: 800;
@@ -19,7 +18,7 @@
   text-transform: uppercase;
   }
   
-  .h3 {
+h3 {
   font-family: 'Futura';
   font-style: normal;
   font-weight: 800;
@@ -29,7 +28,7 @@
   text-transform: uppercase;
   }
   
-  .h4 {
+h4 {
   font-family: 'Futura';
   font-style: normal;
   font-weight: 800;
@@ -37,10 +36,18 @@
   line-height: 31px;
   text-transform: uppercase;
   }
+
+p {
+font-family: 'Futura';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 110%;
+}
   
-  /* Photo overlay */
+/* Photo overlay font */
   
-  .photoFont 
+.photoFont 
   {
   /* Photo Overlay */
   font-family: 'Futura';
@@ -55,8 +62,6 @@
 
 
 
-
-
 /* The basics */
 body {
   height: auto;
@@ -67,45 +72,40 @@ body {
 }
 
 .container-fluid {
-    position: relative;
-    text-align: center;
-    color: white;
-    padding: 0%;
-    margin-bottom: 100px;
-    width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0%;
+  margin-bottom: 100px;
+  width: 100%;
   }
 
-  .top-left.nothome{
-    padding-left: 0px;
+.top-left.nothome{
+  padding-left: 0px;
   
    }
 
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    padding-left: 20px;
-    padding-top: 20px;
-  }
 
- 
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
 
-  .navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     font-size: 20px;
     color: white;
   }
-  
- 
 
   .top-right {
     position: absolute;
-    top: 8px;
+    top: 8px
     right: 16px;
   }
 
   
-
- 
   .centered {
     position: absolute;
     top: 50%;
