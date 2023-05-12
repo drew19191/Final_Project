@@ -1,6 +1,6 @@
 /* Headlines from Figma */
 h1 { 
-  font-family: 'Futura';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 800;
   font-size: 50px;
@@ -9,7 +9,7 @@ h1 {
   }
   
 h2 { 
-  font-family: 'Futura';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
@@ -19,7 +19,7 @@ h2 {
   }
   
 h3 {
-  font-family: 'Futura';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 800;
   font-size: 32px;
@@ -29,7 +29,7 @@ h3 {
   }
   
 h4 {
-  font-family: 'Futura';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 800;
   font-size: 24px;
@@ -38,7 +38,7 @@ h4 {
   }
 
 p {
-font-family: 'Futura';
+font-family: 'Nunito';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
@@ -50,7 +50,7 @@ line-height: 110%;
 .photoFont 
   {
   /* Photo Overlay */
-  font-family: 'Futura';
+  font-family: 'Nunito';
   font-style: normal;
   font-weight: 800;
   font-size: 96px;
