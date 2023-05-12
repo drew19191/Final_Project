@@ -1,0 +1,335 @@
+/* ================================
+Globals
+================================ */
+
+body {
+	font-family: 'Nunito';
+	font-style: normal;
+	background-color: #F2E3B3;
+}
+
+/* ================================
+Typography
+================================ */
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 800;
+}
+
+h1 {
+	font-size: 50px;
+	line-height: 1.3;
+	text-transform: uppercase;
+	color: black;
+}
+
+h2 { 
+	font-size: 40px;
+	line-height: 1.3;
+	text-transform: uppercase;
+	color: black;
+}
+	
+h3 {
+	font-size: 32px;
+	line-height: 1.4;
+	text-transform: uppercase;
+	color: black;
+}
+	
+h4 {
+	font-size: 24px;
+	line-height: 1.29166666667;
+	text-transform: uppercase;
+}
+
+p {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1.1;
+}
+
+
+/* ================================
+Buttons
+================================ */
+
+.btn-primary {
+	background-color: #733702;
+	border-color: #733702;
+}
+
+.btn-primary:hover,
+.btn-primary:active {}
+
+/* ================================
+Header
+================================ */
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	z-index: 3;
+}
+
+.site-logo img {
+	display: block;
+	height: 150px;
+	width: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-size: 20px;
+	color: white;
+}
+
+/* ================================
+Masthead
+================================ */
+
+.page-masthead {
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 166px; /* height of header */
+
+	height: calc(100vh - 166px); /* subtract height of header */
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.page-masthead::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 266px; /* 100 more than height of header */
+	z-index: 1;
+	background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.5) 100%);
+}
+
+.page-masthead--home,
+.page-masthead--register,
+.page-masthead--faqs {
+	background-image: url('../images-scaled/masthead-home.jpg');
+}
+
+.page-masthead--about {
+	background-image: url('../images-scaled/masthead-about.jpg');
+}
+
+.page-masthead--activities {
+	background-image: url('../images-scaled/masthead-activities.jpg');
+}
+
+.page-masthead--contact {
+	background-image: url('../images-scaled/masthead-home.jpg');
+}
+
+.page-masthead__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+	z-index: 2;
+}
+
+.page-masthead__content h1 {
+	color: #fff;
+	text-align: center;
+}
+
+/* ================================
+Section Heading
+================================ */
+
+.section-heading {
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 3rem 0;
+	min-height: 50vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-heading--fishing {
+	background-image: url('../images-scaled/fishing.jpg');
+}
+
+.section-heading--oregon {
+	background-image: url('../images-scaled/oregon.jpg');
+}
+
+.section-heading--couple {
+	background-image: url('../images-scaled/couple.jpg');
+}
+
+.section-heading__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-heading__content h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 96px;
+	text-transform: uppercase;
+}
+
+/* ================================
+Footer
+================================ */
+footer {
+	background: #733702;
+	background: linear-gradient(59deg, #D97C2B, #733702);
+	color: white;
+	margin-top:100px;
+	padding-top: 2rem;
+}
+
+footer a {
+	color: #fff;
+	font-size: 14px;
+	transition-duration: 0.2s;
+}
+
+footer a:hover {
+	color: #FA944B;
+	text-decoration: none;
+}
+
+footer .copy {
+	font-size: 12px;
+	padding: 10px;
+}
+
+.footer-secondary {
+	padding-top: 2em;
+}
+
+.footer-logo img {
+	display: block;
+	height: 200px;
+	width: auto;
+}
+
+/* ================================
+Social Icons
+================================ */
+
+.social-network {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.social-network li {
+	margin: 0 5px;
+}
+
+.social-network li a {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	border-radius: 50%;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	font-size: 15px;
+	background-color: #F9F9F9;
+}
+
+.social-network li a i {
+	color: #595959;
+	margin: 0;
+	line-height: 30px;
+	text-align: center;
+	transition: all 0.2s;
+}
+
+.social-circle li a:hover i {
+	color: #fff;
+	transform: rotate(360deg);
+}
+
+.social-network a.icoFacebook:hover { background-color: #3B5998; }
+.social-network a.icoLinkedin:hover { background-color: #007bb7;}
+.social-network a.icoTwitter:hover { background-color: #1DA1F2; }
+.social-network a.icoInstagram:hover { background-color: #E1306C; }
+.social-network a.icoReddit:hover { background-color: #FF4500; }
+
+
+/* ================================
+Forms
+================================ */
+
+/* Set a max width for the form container */
+form {
+	max-width: 500px;
+	margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Adjust the width of the form input elements */
+.form-control {
+	width: 100%;
+	max-width: 400px;
+}
+
+/* Adjust the size of the checkbox label */
+.form-check-label {
+	padding-left: 1.5rem;
+}
+
+/* ================================
+Activities
+================================ */
+
+.activity-set {
+	display: flex;
+	justify-content: space-around;
+}
+
+.acts-image {
+	width: 300px;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.acts-image__overlay {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.acts-image:hover .acts-image__overlay {
+	opacity: 1;
+}
+
+.acts-image img {
+	width: 100%;
+	display: block;
+}
