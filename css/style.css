@@ -13,6 +13,10 @@ body {
 	padding-bottom: 10px;
 }
 
+.cont-space-right {
+	padding-right: 20px;
+}
+
 /* ================================
 Typography
 ================================ */
@@ -182,6 +186,14 @@ Section Heading
 
 .section-heading--couple {
 	background-image: url('../images-scaled/couple.jpg');
+}
+
+.section-heading--campground {
+	background-image: url('../images-scaled/campsite_setup.jpg');
+}
+
+.section-heading--no-gear {
+	background-image: url('../images-scaled/hextent_guy_1140.jpg');
 }
 
 .section-heading__content {
