@@ -8,6 +8,11 @@ body {
 	background-color: #F2E3B3;
 }
 
+.cont-space {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
 /* ================================
 Typography
 ================================ */
@@ -116,9 +121,12 @@ Masthead
 }
 
 .page-masthead--home,
-.page-masthead--register,
-.page-masthead--faqs {
+.page-masthead--register {
 	background-image: url('../images-scaled/masthead-home.jpg');
+}
+
+.page-masthead--faqs {
+	background-image: url('../images-scaled/masthead-music.jpg');
 }
 
 .page-masthead--about {
@@ -345,4 +353,17 @@ Accordion
 
 .accordion-button:not(.collapsed)::after {
 background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}
+
+.accordion-button {
+	background-color: #F2B544;
+}
+
+.accordion-header {
+	color: green;
+}
+
+
+.accordion-collapse {
+	padding: 10px 20px;
 }
