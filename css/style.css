@@ -8,10 +8,18 @@ body {
 	background-color: #F2E3B3;
 }
 
+/* ---
+Using this to add vertical padding to containers (Jenn)
+--- */
+
 .cont-space {
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
+
+/* ---
+Using this to add right horizontal padding to containers (Jenn)
+--- */
 
 .cont-space-right {
 	padding-right: 20px;
