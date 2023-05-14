@@ -14,7 +14,7 @@ Using this to add vertical padding to containers (Jenn)
 
 .cont-space {
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 /* ---
@@ -22,7 +22,35 @@ Using this to add right horizontal padding to containers (Jenn)
 --- */
 
 .cont-space-right {
-	padding-right: 20px;
+	padding-right: 30px;
+}
+
+.cont-space-left {
+	padding-left: 30px;
+}
+
+/* --- 
+Color palette backgrounds
+--- */
+
+.bg-bluesy {
+	background-color: #068BBF;
+}
+
+.bg-muddy {
+	background-color: #733702;
+}
+
+.bg-sage {
+	background-color: #94A681;
+}
+
+.bg-golden-leaves {
+	background-color: #F2B544;
+}
+
+.bg-pumpkin {
+	background-color: #D97C2B;
 }
 
 /* ================================
@@ -72,8 +100,8 @@ Buttons
 ================================ */
 
 .btn-primary {
-	background-color: #733702;
-	border-color: #733702;
+	background-color: #068BBF;
+	border-color: #068BBF;
 }
 
 .btn-primary:hover,
